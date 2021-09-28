@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google clone</title>
+        <link rel="stylesheet" href="style.scss">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <ul class="links">
+                    <li class="headericon">Images</li>
+                    <li class="headricon">
+                        <img src="https://picsum.photos/32/32" class="profilepic"/>
+                    </li>
+                </ul>
+            </header>
+            <main class="searchcontainer">
+                <img src="./img/google_logo.png" class="logo"/>
+                <form onsubmit="return false" is="searchform">
+                    <input type="search" class="search" placeholder="Search something..."/>
+                    <div class="searchbtncontainer">
+                        <button type="submit">Google Search</button>
+                        <button onclick="alert( 'Created by Debonik' )" type="reset">
+                            I'm feeling lucky
+                        </button>
+                    </div>
+                </form>
+                <div class="langoffer">
+                    <span>Languages Offered -</span>
+                    <a href="#">Hindi</a>
+                    <a href="#">Bengali</a>
+                    <a href="#">Gujarati</a>
+                    <a href="#">Marathi</a>
+                    <a href="#">English</a>
+                </div>
+            </main>
+            <footer class="footer">
+                <ul class="links">
+                    <li class="link">Advertising</li>
+                    <li class="link">Business</li>
+                    <li class="link">About</li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
